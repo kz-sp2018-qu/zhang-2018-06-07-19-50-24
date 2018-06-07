@@ -1,0 +1,11 @@
+{
+  "base_url": "/",
+  "hostname": "localhost",
+  "notebook_dir": "/home/qusandbox",
+  "password": true,
+  "pid": 17,
+  "port": 8888,
+  "secure": false,
+  "token": "",
+  "url": "http://localhost:8888/"
+}

@@ -1,0 +1,169 @@
+python exists.
+git exists
+Hit:1 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial InRelease
+Get:2 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates InRelease [102 kB]
+Get:3 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-backports InRelease [102 kB]
+Get:4 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/main Sources [286 kB]
+Get:5 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/universe Sources [185 kB]
+Get:6 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/multiverse Sources [7,968 B]
+Get:7 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/main amd64 Packages [678 kB]
+Get:8 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/main Translation-en [283 kB]
+Get:9 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 Packages [565 kB]
+Get:10 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/universe Translation-en [229 kB]
+Get:11 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 Packages [16.2 kB]
+Get:12 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/multiverse Translation-en [8,052 B]
+Get:13 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-backports/universe Sources [4,904 B]
+Get:14 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-backports/universe amd64 Packages [6,616 B]
+Get:15 http://security.ubuntu.com/ubuntu xenial-security InRelease [102 kB]
+Get:16 http://security.ubuntu.com/ubuntu xenial-security/main Sources [104 kB]
+Get:17 http://security.ubuntu.com/ubuntu xenial-security/universe Sources [48.9 kB]
+Get:18 http://security.ubuntu.com/ubuntu xenial-security/multiverse Sources [1,520 B]
+Get:19 http://security.ubuntu.com/ubuntu xenial-security/main amd64 Packages [404 kB]
+Get:20 http://security.ubuntu.com/ubuntu xenial-security/main Translation-en [178 kB]
+Get:21 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 Packages [190 kB]
+Get:22 http://security.ubuntu.com/ubuntu xenial-security/universe Translation-en [98.8 kB]
+Get:23 http://security.ubuntu.com/ubuntu xenial-security/multiverse amd64 Packages [3,208 B]
+Get:24 http://security.ubuntu.com/ubuntu xenial-security/multiverse Translation-en [1,408 B]
+Fetched 3,606 kB in 2s (1,543 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  keyutils libnfsidmap2 libtirpc1 rpcbind
+Suggested packages:
+  watchdog
+The following NEW packages will be installed:
+  keyutils libnfsidmap2 libtirpc1 nfs-common rpcbind
+0 upgraded, 5 newly installed, 0 to remove and 124 not upgraded.
+Need to get 379 kB of archives.
+After this operation, 1,386 kB of additional disk space will be used.
+Get:1 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial/main amd64 libnfsidmap2 amd64 0.25-5 [32.2 kB]
+Get:2 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial/main amd64 libtirpc1 amd64 0.2.5-1 [75.6 kB]
+Get:3 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial/main amd64 keyutils amd64 1.5.9-8ubuntu1 [47.1 kB]
+Get:4 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial/main amd64 rpcbind amd64 0.2.3-0.2 [40.3 kB]
+Get:5 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/main amd64 nfs-common amd64 1:1.2.8-9ubuntu12.1 [184 kB]
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (This frontend requires a controlling tty.)
+debconf: falling back to frontend: Teletype
+dpkg-preconfigure: unable to re-open stdin: 
+Fetched 379 kB in 0s (11.9 MB/s)
+Selecting previously unselected package libnfsidmap2:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 82808 files and directories currently installed.)
+Preparing to unpack .../libnfsidmap2_0.25-5_amd64.deb ...
+Unpacking libnfsidmap2:amd64 (0.25-5) ...
+Selecting previously unselected package libtirpc1:amd64.
+Preparing to unpack .../libtirpc1_0.2.5-1_amd64.deb ...
+Unpacking libtirpc1:amd64 (0.2.5-1) ...
+Selecting previously unselected package keyutils.
+Preparing to unpack .../keyutils_1.5.9-8ubuntu1_amd64.deb ...
+Unpacking keyutils (1.5.9-8ubuntu1) ...
+Selecting previously unselected package rpcbind.
+Preparing to unpack .../rpcbind_0.2.3-0.2_amd64.deb ...
+Unpacking rpcbind (0.2.3-0.2) ...
+Selecting previously unselected package nfs-common.
+Preparing to unpack .../nfs-common_1%3a1.2.8-9ubuntu12.1_amd64.deb ...
+Unpacking nfs-common (1:1.2.8-9ubuntu12.1) ...
+Processing triggers for man-db (2.7.5-1) ...
+Processing triggers for systemd (229-4ubuntu19) ...
+Processing triggers for ureadahead (0.100.0-19) ...
+Setting up libnfsidmap2:amd64 (0.25-5) ...
+Setting up libtirpc1:amd64 (0.2.5-1) ...
+Setting up keyutils (1.5.9-8ubuntu1) ...
+Setting up rpcbind (0.2.3-0.2) ...
+Setting up nfs-common (1:1.2.8-9ubuntu12.1) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+
+Creating config file /etc/idmapd.conf with new version
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+
+Creating config file /etc/default/nfs-common with new version
+Adding system user `statd' (UID 112) ...
+Adding new user `statd' (UID 112) with group `nogroup' ...
+Not creating home directory `/var/lib/nfs'.
+nfs-utils.service is a disabled or a static unit, not starting it.
+Processing triggers for libc-bin (2.23-0ubuntu9) ...
+Processing triggers for systemd (229-4ubuntu19) ...
+Processing triggers for ureadahead (0.100.0-19) ...
+jupyter exists
+[I 20:04:16.228 NotebookApp] Writing notebook server cookie secret to /home/ubuntu/.local/share/jupyter/runtime/notebook_cookie_secret
+[W 20:04:17.841 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 20:04:17.852 NotebookApp] Serving notebooks from local directory: /home/ubuntu
+[I 20:04:17.852 NotebookApp] 0 active kernels
+[I 20:04:17.852 NotebookApp] The Jupyter Notebook is running at:
+[I 20:04:17.852 NotebookApp] http://[all ip addresses on your system]:8888/
+[I 20:04:17.852 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 20:07:11.732 NotebookApp] 302 GET / (65.96.160.137) 0.62ms
+[I 20:07:11.880 NotebookApp] 302 GET /tree? (65.96.160.137) 1.01ms
+[I 20:07:17.839 NotebookApp] 302 POST /login?next=%2Ftree%3F (65.96.160.137) 1.13ms
+[W 20:07:20.286 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20171213200416 (65.96.160.137) 8.00ms referer=http://54.148.23.156/tree?
+[W 20:07:25.430 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20171213200416 (65.96.160.137) 1.14ms referer=http://54.148.23.156/tree/ReinforcementLearning
+[W 20:07:41.286 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20171213200416 (65.96.160.137) 1.09ms referer=http://54.148.23.156/notebooks/ReinforcementLearning/view_cartpole_video.ipynb
+[W 20:07:41.405 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20171213200416 (65.96.160.137) 1.82ms referer=http://54.148.23.156/notebooks/ReinforcementLearning/view_cartpole_video.ipynb
+[I 20:07:41.507 NotebookApp] Kernel started: cd22445d-09e6-4d12-9a17-def8dbb58f44
+[I 20:07:41.509 NotebookApp] 302 GET /notebooks/ReinforcementLearning/cartpole_video/openaigym.video.0.cartpole.video000947.mp4 (65.96.160.137) 0.91ms
+[I 20:07:42.063 NotebookApp] Adapting to protocol v5.1 for kernel cd22445d-09e6-4d12-9a17-def8dbb58f44
+[I 20:07:49.298 NotebookApp] 302 GET /notebooks/ReinforcementLearning/cartpole_video/openaigym.video.0.cartpole.video000947.mp4 (65.96.160.137) 0.98ms
+[I 20:08:07.071 NotebookApp] Starting buffering for cd22445d-09e6-4d12-9a17-def8dbb58f44:08985560DF5F42DE8D0BD81670D24087
+[W 20:08:42.432 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20171213200416 (65.96.160.137) 1.09ms referer=http://54.148.23.156/edit/ReinforcementLearning/build_image_instruction.txt
+[W 20:10:23.017 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20171213200416 (65.96.160.137) 1.09ms referer=http://54.148.23.156/edit/ReinforcementLearning/build_image_instruction.txt
+[W 20:10:37.135 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20171213200416 (65.96.160.137) 1.14ms referer=http://54.148.23.156/edit/ReinforcementLearning/build_image_instruction.txt
+[W 20:11:01.121 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20171213200416 (65.96.160.137) 1.09ms referer=http://54.148.23.156/edit/ReinforcementLearning/build_image_instruction.txt
+[W 20:11:49.368 NotebookApp] delete /ReinforcementLearning/build_image_instruction.txt
+[C 20:16:04.256 NotebookApp] received signal 15, stopping
+[I 20:16:04.257 NotebookApp] Shutting down 1 kernel
+[I 20:16:04.257 NotebookApp] Kernel shutdown: cd22445d-09e6-4d12-9a17-def8dbb58f44
+python exists.
+git exists
+Hit:1 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial InRelease
+Get:2 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates InRelease [102 kB]
+Get:3 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-backports InRelease [102 kB]
+Get:4 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/main Sources [302 kB]
+Get:5 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/restricted Sources [2,524 B]
+Get:6 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/universe Sources [198 kB]
+Get:7 http://security.ubuntu.com/ubuntu xenial-security InRelease [102 kB]
+Get:8 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/multiverse Sources [7,968 B]
+Get:9 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/main amd64 Packages [744 kB]
+Get:10 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/main Translation-en [308 kB]
+Get:11 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/restricted amd64 Packages [7,560 B]
+Get:12 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/restricted Translation-en [2,272 B]
+Get:13 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 Packages [606 kB]
+Get:14 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/universe Translation-en [244 kB]
+Get:15 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 Packages [16.2 kB]
+Get:16 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-backports/main Sources [3,432 B]
+Get:17 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-backports/universe Sources [5,828 B]
+Get:18 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-backports/main amd64 Packages [4,836 B]
+Get:19 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-backports/universe amd64 Packages [7,084 B]
+Get:20 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-backports/universe Translation-en [3,812 B]
+Get:21 http://security.ubuntu.com/ubuntu xenial-security/main Sources [118 kB]
+Get:22 http://security.ubuntu.com/ubuntu xenial-security/restricted Sources [2,116 B]
+Get:23 http://security.ubuntu.com/ubuntu xenial-security/universe Sources [61.0 kB]
+Get:24 http://security.ubuntu.com/ubuntu xenial-security/multiverse Sources [1,520 B]
+Get:25 http://security.ubuntu.com/ubuntu xenial-security/main amd64 Packages [465 kB]
+Get:26 http://security.ubuntu.com/ubuntu xenial-security/main Translation-en [201 kB]
+Get:27 http://security.ubuntu.com/ubuntu xenial-security/restricted amd64 Packages [7,224 B]
+Get:28 http://security.ubuntu.com/ubuntu xenial-security/restricted Translation-en [2,152 B]
+Get:29 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 Packages [329 kB]
+Get:30 http://security.ubuntu.com/ubuntu xenial-security/universe Translation-en [122 kB]
+Get:31 http://security.ubuntu.com/ubuntu xenial-security/multiverse amd64 Packages [3,208 B]
+Fetched 4,082 kB in 1s (2,356 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+nfs-common is already the newest version (1:1.2.8-9ubuntu12.1).
+0 upgraded, 0 newly installed, 0 to remove and 213 not upgraded.
+jupyter exists
+[W 20:31:47.689 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 20:31:47.700 NotebookApp] Serving notebooks from local directory: /home/ubuntu
+[I 20:31:47.700 NotebookApp] 0 active kernels
+[I 20:31:47.700 NotebookApp] The Jupyter Notebook is running at:
+[I 20:31:47.700 NotebookApp] http://[all ip addresses on your system]:8888/
+[I 20:31:47.700 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Credit Scoring</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--<link href="../static/css/bootstrap.min.css" rel="stylesheet">-->
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+    <style>
+        .doNotShow {
+            display: none;
+        }
+        .plsShow {
+            display: block;
+        }
+        .givePad {
+            padding: 20px 0;
+        }
+        .rightBorder {
+            border-right: 1px solid #eee;
+        }
+        .table-bordered>thead>tr>th {
+            background-color: #337ab7;
+            color: #fff;
+            text-align: center;
+        }
+        .table>tbody>tr>td {
+            text-align: center;
+        }
+        .defProb {
+            margin: 15px 0;
+            color: #337ab7;
+            font-style: italic;
+        }
+    </style>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            var x;
+            $.getJSON("../static/probsjson.json", function(json) {
+                x = json.values;
+                var trace = {
+                    x: x,
+                    type: 'histogram'
+                };
+                var data = [trace];
+                var layout = {
+                    title: "Population Default Probability"
+                };
+                Plotly.newPlot('myDiv', data, layout);
+            })
+        });
+    </script>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header clearfix">
+            <nav class="pull-left">
+                <h3 class="text-muted text-left">Credit Scoring</h3>
+            </nav>
+            <nav class="pull-right" style="padding-top: 17px;">
+                <ul class="nav nav-pills">
+                    <li role="presentation" class="active"><a href="/">Home</a>
+                    </li>
+                    <li role="presentation"><a
+                            href="showSignUp">Help</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+
+        <hr>
+
+        <div class="givePad">
+            <div class="col-md-6 rightBorder">
+
+            <form id="probCheckForm" method="POST" action=".">
+
+              <div class="form-group">
+                <label for="AnnualIncome">Annual Income</label>
+                <input type="text" class="form-control" name="AnnualIncome"
+                       id="AnnualIncome"
+                       placeholder="90000" required>
+              </div>
+
+              <div class="form-group">
+                <label for="LoanAmnt">Loan Amount</label>
+                <input type="text" class="form-control" name = "LoanAmnt"
+                       id="LoanAmnt"
+                       placeholder="30000" required>
+              </div>
+
+              <div class="form-group">
+                <label for="HomeOwnership">Home Ownership</label>
+                <select class="form-control" name = "HomeOwnership"
+                        id="HomeOwnership">
+                  <option>RENT</option>
+                  <option>OWN</option>
+                  <option>MORTGAGE</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="InqLast6mths">Credit Inquiries past 6
+                    months</label>
+                <input type="text" class="form-control" name
+                        = "InqLast6mths" id="InqLast6mths"
+                       placeholder="10" required>
+              </div>
+
+              <div class="form-group">
+                <label for="MinFICOScore">Min FICO Score</label>
+                <input type="text" class="form-control" name = "MinFICOScore"
+                        id="MinFICOScore"
+                       placeholder="645" required>
+
+              </div>
+              <div class="form-group">
+                <label for="MaxFICOScore">Max FICO Score</label>
+                <input type="text" class="form-control" name="MaxFICOScore"
+                       id="MaxFICOScore"  placeholder="750" required>
+              </div>
+
+              <input class="btn btn-primary btn-bordered center-block"
+                     type="submit"
+                       value="Submit" required>
+            </form>
+
+            </div>
+
+            {% if DefaultProbability!='None' %}
+            <div id="probGraph" class="col-md-6">
+                <div id="myDiv"></div>
+
+                    <!--<p class="alert alert-success">Default Probability: {{DefaultProbability}}</p>-->
+
+                <h3 class="defProb text-center"><strong>Default
+                    Probability:</strong>
+                    {{DefaultProbability}}</h3>
+
+                <table class="table table-bordered">
+                    <thead>
+                        <th>
+                            Random Forest Classifier CreditScore
+                        </th>
+                        <th>
+                            Logistic Regression Credit Score
+                        </th>
+                        <th>
+                            Neural Network Credit Score
+                        </th>
+                    </thead>
+                    <tbody>
+                        <td>
+                            {{RFS}}
+                        </td>
+                        <td>
+                            {{LRS}}
+                        </td>
+                        <td>
+                            {{NNS}}
+                        </td>
+                    </tbody>
+                </table>
+
+
+
+            </div>
+            {% endif %}
+
+        </div>
+
+        <!--<footer class="footer">-->
+            <!--<p>&copy; QuantUniversity 2017</p>-->
+        <!--</footer>-->
+
+    </div>
+
+<!--<script src="js/jquery-3.2.1.js"></script>-->
+<!--<script src="js/signUp.js"></script>-->
+
+</body>
+
+</html>

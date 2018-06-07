@@ -1,0 +1,26 @@
+# How to build the image: 
+# using base image: jupyter/scipy-notebook:latest
+
+
+docker run -it --name lendingclubclustering -p 8888:8888 jupyter/scipy-notebook:latest /bin/bash
+
+git clone https://xiaolanyuanadaptivealgo:Analytics2017@github.com/modelriskanalytics/SSinghProjects.git
+
+
+cd LendingClubCluster
+
+pip install -r requirements.txt 
+
+exit
+
+docker commite lendingclubclustering lendingclubclustering:latest
+
+
+# How to open jupyter notebook in docker containner
+
+
+navigate to /notebook and run the command as follows:
+
+jupyter notebook --ip 0.0.0.0 --no-browser --allow-root
+
+cope the url it shows to browser.

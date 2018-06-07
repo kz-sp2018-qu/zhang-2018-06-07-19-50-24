@@ -1,0 +1,269 @@
+python exists.
+git exists
+Hit:1 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial InRelease
+Get:2 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates InRelease [102 kB]
+Get:3 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-backports InRelease [102 kB]
+Get:4 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/main Sources [286 kB]
+Get:5 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/universe Sources [185 kB]
+Get:6 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/multiverse Sources [7,968 B]
+Get:7 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/main amd64 Packages [678 kB]
+Get:8 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/main Translation-en [283 kB]
+Get:9 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 Packages [565 kB]
+Get:10 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/universe Translation-en [229 kB]
+Get:11 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 Packages [16.2 kB]
+Get:12 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/multiverse Translation-en [8,052 B]
+Get:13 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-backports/universe Sources [4,904 B]
+Get:14 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-backports/universe amd64 Packages [6,616 B]
+Get:15 http://security.ubuntu.com/ubuntu xenial-security InRelease [102 kB]
+Get:16 http://security.ubuntu.com/ubuntu xenial-security/main Sources [104 kB]
+Get:17 http://security.ubuntu.com/ubuntu xenial-security/universe Sources [48.9 kB]
+Get:18 http://security.ubuntu.com/ubuntu xenial-security/multiverse Sources [1,520 B]
+Get:19 http://security.ubuntu.com/ubuntu xenial-security/main amd64 Packages [404 kB]
+Get:20 http://security.ubuntu.com/ubuntu xenial-security/main Translation-en [178 kB]
+Get:21 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 Packages [190 kB]
+Get:22 http://security.ubuntu.com/ubuntu xenial-security/universe Translation-en [98.8 kB]
+Get:23 http://security.ubuntu.com/ubuntu xenial-security/multiverse amd64 Packages [3,208 B]
+Get:24 http://security.ubuntu.com/ubuntu xenial-security/multiverse Translation-en [1,408 B]
+Fetched 3,606 kB in 2s (1,543 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  keyutils libnfsidmap2 libtirpc1 rpcbind
+Suggested packages:
+  watchdog
+The following NEW packages will be installed:
+  keyutils libnfsidmap2 libtirpc1 nfs-common rpcbind
+0 upgraded, 5 newly installed, 0 to remove and 124 not upgraded.
+Need to get 379 kB of archives.
+After this operation, 1,386 kB of additional disk space will be used.
+Get:1 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial/main amd64 libnfsidmap2 amd64 0.25-5 [32.2 kB]
+Get:2 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial/main amd64 libtirpc1 amd64 0.2.5-1 [75.6 kB]
+Get:3 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial/main amd64 keyutils amd64 1.5.9-8ubuntu1 [47.1 kB]
+Get:4 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial/main amd64 rpcbind amd64 0.2.3-0.2 [40.3 kB]
+Get:5 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/main amd64 nfs-common amd64 1:1.2.8-9ubuntu12.1 [184 kB]
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (This frontend requires a controlling tty.)
+debconf: falling back to frontend: Teletype
+dpkg-preconfigure: unable to re-open stdin: 
+Fetched 379 kB in 0s (11.9 MB/s)
+Selecting previously unselected package libnfsidmap2:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 82808 files and directories currently installed.)
+Preparing to unpack .../libnfsidmap2_0.25-5_amd64.deb ...
+Unpacking libnfsidmap2:amd64 (0.25-5) ...
+Selecting previously unselected package libtirpc1:amd64.
+Preparing to unpack .../libtirpc1_0.2.5-1_amd64.deb ...
+Unpacking libtirpc1:amd64 (0.2.5-1) ...
+Selecting previously unselected package keyutils.
+Preparing to unpack .../keyutils_1.5.9-8ubuntu1_amd64.deb ...
+Unpacking keyutils (1.5.9-8ubuntu1) ...
+Selecting previously unselected package rpcbind.
+Preparing to unpack .../rpcbind_0.2.3-0.2_amd64.deb ...
+Unpacking rpcbind (0.2.3-0.2) ...
+Selecting previously unselected package nfs-common.
+Preparing to unpack .../nfs-common_1%3a1.2.8-9ubuntu12.1_amd64.deb ...
+Unpacking nfs-common (1:1.2.8-9ubuntu12.1) ...
+Processing triggers for man-db (2.7.5-1) ...
+Processing triggers for systemd (229-4ubuntu19) ...
+Processing triggers for ureadahead (0.100.0-19) ...
+Setting up libnfsidmap2:amd64 (0.25-5) ...
+Setting up libtirpc1:amd64 (0.2.5-1) ...
+Setting up keyutils (1.5.9-8ubuntu1) ...
+Setting up rpcbind (0.2.3-0.2) ...
+Setting up nfs-common (1:1.2.8-9ubuntu12.1) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+
+Creating config file /etc/idmapd.conf with new version
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+
+Creating config file /etc/default/nfs-common with new version
+Adding system user `statd' (UID 112) ...
+Adding new user `statd' (UID 112) with group `nogroup' ...
+Not creating home directory `/var/lib/nfs'.
+nfs-utils.service is a disabled or a static unit, not starting it.
+Processing triggers for libc-bin (2.23-0ubuntu9) ...
+Processing triggers for systemd (229-4ubuntu19) ...
+Processing triggers for ureadahead (0.100.0-19) ...
+jupyter exists
+[I 20:04:16.228 NotebookApp] Writing notebook server cookie secret to /home/ubuntu/.local/share/jupyter/runtime/notebook_cookie_secret
+[W 20:04:17.841 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 20:04:17.852 NotebookApp] Serving notebooks from local directory: /home/ubuntu
+[I 20:04:17.852 NotebookApp] 0 active kernels
+[I 20:04:17.852 NotebookApp] The Jupyter Notebook is running at:
+[I 20:04:17.852 NotebookApp] http://[all ip addresses on your system]:8888/
+[I 20:04:17.852 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 20:07:11.732 NotebookApp] 302 GET / (65.96.160.137) 0.62ms
+[I 20:07:11.880 NotebookApp] 302 GET /tree? (65.96.160.137) 1.01ms
+[I 20:07:17.839 NotebookApp] 302 POST /login?next=%2Ftree%3F (65.96.160.137) 1.13ms
+[W 20:07:20.286 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20171213200416 (65.96.160.137) 8.00ms referer=http://54.148.23.156/tree?
+[W 20:07:25.430 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20171213200416 (65.96.160.137) 1.14ms referer=http://54.148.23.156/tree/ReinforcementLearning
+[W 20:07:41.286 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20171213200416 (65.96.160.137) 1.09ms referer=http://54.148.23.156/notebooks/ReinforcementLearning/view_cartpole_video.ipynb
+[W 20:07:41.405 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20171213200416 (65.96.160.137) 1.82ms referer=http://54.148.23.156/notebooks/ReinforcementLearning/view_cartpole_video.ipynb
+[I 20:07:41.507 NotebookApp] Kernel started: cd22445d-09e6-4d12-9a17-def8dbb58f44
+[I 20:07:41.509 NotebookApp] 302 GET /notebooks/ReinforcementLearning/cartpole_video/openaigym.video.0.cartpole.video000947.mp4 (65.96.160.137) 0.91ms
+[I 20:07:42.063 NotebookApp] Adapting to protocol v5.1 for kernel cd22445d-09e6-4d12-9a17-def8dbb58f44
+[I 20:07:49.298 NotebookApp] 302 GET /notebooks/ReinforcementLearning/cartpole_video/openaigym.video.0.cartpole.video000947.mp4 (65.96.160.137) 0.98ms
+[I 20:08:07.071 NotebookApp] Starting buffering for cd22445d-09e6-4d12-9a17-def8dbb58f44:08985560DF5F42DE8D0BD81670D24087
+[W 20:08:42.432 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20171213200416 (65.96.160.137) 1.09ms referer=http://54.148.23.156/edit/ReinforcementLearning/build_image_instruction.txt
+[W 20:10:23.017 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20171213200416 (65.96.160.137) 1.09ms referer=http://54.148.23.156/edit/ReinforcementLearning/build_image_instruction.txt
+[W 20:10:37.135 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20171213200416 (65.96.160.137) 1.14ms referer=http://54.148.23.156/edit/ReinforcementLearning/build_image_instruction.txt
+[W 20:11:01.121 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20171213200416 (65.96.160.137) 1.09ms referer=http://54.148.23.156/edit/ReinforcementLearning/build_image_instruction.txt
+[W 20:11:49.368 NotebookApp] delete /ReinforcementLearning/build_image_instruction.txt
+[C 20:16:04.256 NotebookApp] received signal 15, stopping
+[I 20:16:04.257 NotebookApp] Shutting down 1 kernel
+[I 20:16:04.257 NotebookApp] Kernel shutdown: cd22445d-09e6-4d12-9a17-def8dbb58f44
+python exists.
+git exists
+Hit:1 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial InRelease
+Get:2 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates InRelease [102 kB]
+Get:3 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-backports InRelease [102 kB]
+Get:4 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/main Sources [302 kB]
+Get:5 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/restricted Sources [2,524 B]
+Get:6 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/universe Sources [198 kB]
+Get:7 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/multiverse Sources [7,968 B]
+Get:8 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/main amd64 Packages [744 kB]
+Get:9 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/main Translation-en [308 kB]
+Get:10 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/restricted amd64 Packages [7,560 B]
+Get:11 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/restricted Translation-en [2,272 B]
+Get:12 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 Packages [606 kB]
+Get:13 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/universe Translation-en [244 kB]
+Get:14 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 Packages [16.2 kB]
+Get:15 http://security.ubuntu.com/ubuntu xenial-security InRelease [102 kB]
+Get:16 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-backports/main Sources [3,432 B]
+Get:17 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-backports/universe Sources [5,828 B]
+Get:18 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-backports/main amd64 Packages [4,836 B]
+Get:19 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-backports/universe amd64 Packages [7,084 B]
+Get:20 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-backports/universe Translation-en [3,812 B]
+Get:21 http://security.ubuntu.com/ubuntu xenial-security/main Sources [118 kB]
+Get:22 http://security.ubuntu.com/ubuntu xenial-security/restricted Sources [2,116 B]
+Get:23 http://security.ubuntu.com/ubuntu xenial-security/universe Sources [61.0 kB]
+Get:24 http://security.ubuntu.com/ubuntu xenial-security/multiverse Sources [1,520 B]
+Get:25 http://security.ubuntu.com/ubuntu xenial-security/main amd64 Packages [465 kB]
+Get:26 http://security.ubuntu.com/ubuntu xenial-security/main Translation-en [201 kB]
+Get:27 http://security.ubuntu.com/ubuntu xenial-security/restricted amd64 Packages [7,224 B]
+Get:28 http://security.ubuntu.com/ubuntu xenial-security/restricted Translation-en [2,152 B]
+Get:29 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 Packages [329 kB]
+Get:30 http://security.ubuntu.com/ubuntu xenial-security/universe Translation-en [122 kB]
+Get:31 http://security.ubuntu.com/ubuntu xenial-security/multiverse amd64 Packages [3,208 B]
+Fetched 4,082 kB in 3s (1,320 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+nfs-common is already the newest version (1:1.2.8-9ubuntu12.1).
+0 upgraded, 0 newly installed, 0 to remove and 213 not upgraded.
+jupyter exists
+[W 19:58:04.873 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 19:58:04.882 NotebookApp] Serving notebooks from local directory: /home/ubuntu
+[I 19:58:04.883 NotebookApp] 0 active kernels
+[I 19:58:04.883 NotebookApp] The Jupyter Notebook is running at:
+[I 19:58:04.883 NotebookApp] http://[all ip addresses on your system]:8888/
+[I 19:58:04.883 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 19:58:05.126 NotebookApp] 302 GET / (54.244.52.195) 0.72ms
+[I 19:58:07.120 NotebookApp] 302 GET / (54.245.168.35) 0.48ms
+[I 19:58:10.491 NotebookApp] 302 GET / (54.228.16.3) 0.46ms
+[I 19:58:12.406 NotebookApp] 302 GET / (54.252.254.195) 0.46ms
+[I 19:58:12.918 NotebookApp] 302 GET / (54.252.79.163) 0.46ms
+[I 19:58:14.718 NotebookApp] 302 GET / (54.232.40.67) 0.47ms
+[I 19:58:16.764 NotebookApp] 302 GET / (54.255.254.227) 0.50ms
+[I 19:58:22.317 NotebookApp] 302 GET / (177.71.207.163) 0.47ms
+[I 19:58:23.197 NotebookApp] 302 GET / (54.250.253.227) 0.49ms
+[I 19:58:23.232 NotebookApp] 302 GET / (54.251.31.131) 0.45ms
+[I 19:58:23.410 NotebookApp] 302 GET / (107.23.255.3) 0.47ms
+[I 19:58:23.710 NotebookApp] 302 GET / (54.243.31.227) 0.45ms
+[I 19:58:25.728 NotebookApp] 302 GET / (176.34.159.227) 0.52ms
+[I 19:58:29.472 NotebookApp] 302 GET / (54.183.255.131) 0.45ms
+[I 19:58:29.657 NotebookApp] 302 GET / (54.241.32.99) 0.46ms
+[I 19:58:31.216 NotebookApp] 302 GET / (54.248.220.35) 0.46ms
+[I 19:58:35.153 NotebookApp] 302 GET / (54.244.52.195) 0.46ms
+[I 19:58:37.155 NotebookApp] 302 GET / (54.245.168.35) 0.45ms
+[I 19:58:40.830 NotebookApp] 302 GET / (54.228.16.3) 0.44ms
+[I 19:58:42.825 NotebookApp] 302 GET / (54.252.254.195) 0.47ms
+[I 19:58:43.279 NotebookApp] 302 GET / (54.252.79.163) 0.47ms
+[I 19:58:45.171 NotebookApp] 302 GET / (54.232.40.67) 0.46ms
+[I 19:58:47.162 NotebookApp] 302 GET / (54.255.254.227) 0.45ms
+[I 19:58:52.715 NotebookApp] 302 GET / (177.71.207.163) 0.48ms
+[I 19:58:53.452 NotebookApp] 302 GET / (54.250.253.227) 0.52ms
+[I 19:58:53.610 NotebookApp] 302 GET / (54.251.31.131) 0.46ms
+[I 19:58:53.635 NotebookApp] 302 GET / (107.23.255.3) 0.35ms
+[I 19:58:53.969 NotebookApp] 302 GET / (54.243.31.227) 0.44ms
+[I 19:58:56.054 NotebookApp] 302 GET / (176.34.159.227) 0.46ms
+[I 19:58:59.627 NotebookApp] 302 GET / (54.183.255.131) 0.48ms
+[I 19:58:59.731 NotebookApp] 302 GET / (54.241.32.99) 0.47ms
+[I 19:59:01.489 NotebookApp] 302 GET / (54.248.220.35) 0.49ms
+[I 19:59:05.195 NotebookApp] 302 GET / (54.244.52.195) 0.47ms
+[I 19:59:07.265 NotebookApp] 302 GET / (54.245.168.35) 0.45ms
+[I 19:59:11.206 NotebookApp] 302 GET / (54.228.16.3) 0.45ms
+[I 19:59:13.219 NotebookApp] 302 GET / (54.252.254.195) 0.45ms
+[I 19:59:13.669 NotebookApp] 302 GET / (54.252.79.163) 0.46ms
+[I 19:59:15.627 NotebookApp] 302 GET / (54.232.40.67) 0.49ms
+[I 19:59:17.509 NotebookApp] 302 GET / (54.255.254.227) 0.46ms
+[I 19:59:23.179 NotebookApp] 302 GET / (177.71.207.163) 0.46ms
+[I 19:59:23.754 NotebookApp] 302 GET / (54.250.253.227) 0.45ms
+[I 19:59:23.807 NotebookApp] 302 GET / (107.23.255.3) 0.46ms
+[I 19:59:24.033 NotebookApp] 302 GET / (54.251.31.131) 0.47ms
+[I 19:59:24.210 NotebookApp] 302 GET / (54.243.31.227) 0.45ms
+[I 19:59:26.419 NotebookApp] 302 GET / (176.34.159.227) 0.45ms
+[I 19:59:29.709 NotebookApp] 302 GET / (54.183.255.131) 0.45ms
+[I 19:59:29.837 NotebookApp] 302 GET / (54.241.32.99) 0.47ms
+[I 19:59:31.799 NotebookApp] 302 GET / (54.248.220.35) 0.47ms
+[I 19:59:35.211 NotebookApp] 302 GET / (54.244.52.195) 0.47ms
+[I 19:59:37.301 NotebookApp] 302 GET / (54.245.168.35) 0.45ms
+[I 19:59:41.523 NotebookApp] 302 GET / (54.228.16.3) 0.45ms
+[I 19:59:43.599 NotebookApp] 302 GET / (54.252.254.195) 0.46ms
+[I 19:59:44.081 NotebookApp] 302 GET / (54.252.79.163) 0.47ms
+[I 19:59:46.048 NotebookApp] 302 GET / (54.232.40.67) 0.45ms
+[I 19:59:47.848 NotebookApp] 302 GET / (54.255.254.227) 0.44ms
+[I 19:59:53.647 NotebookApp] 302 GET / (177.71.207.163) 0.46ms
+[I 19:59:53.985 NotebookApp] 302 GET / (107.23.255.3) 0.45ms
+[I 19:59:54.035 NotebookApp] 302 GET / (54.250.253.227) 0.41ms
+[I 19:59:54.385 NotebookApp] 302 GET / (54.251.31.131) 0.45ms
+[I 19:59:54.394 NotebookApp] 302 GET / (54.243.31.227) 0.32ms
+[I 19:59:56.750 NotebookApp] 302 GET / (176.34.159.227) 0.47ms
+[I 19:59:59.756 NotebookApp] 302 GET / (54.183.255.131) 0.45ms
+[I 19:59:59.903 NotebookApp] 302 GET / (54.241.32.99) 0.46ms
+[I 20:00:02.039 NotebookApp] 302 GET / (54.248.220.35) 0.45ms
+[I 20:00:05.233 NotebookApp] 302 GET / (54.244.52.195) 0.45ms
+[I 20:00:07.312 NotebookApp] 302 GET / (54.245.168.35) 0.45ms
+[I 20:00:11.849 NotebookApp] 302 GET / (54.228.16.3) 0.47ms
+[I 20:00:13.940 NotebookApp] 302 GET / (54.252.254.195) 0.46ms
+[I 20:00:14.495 NotebookApp] 302 GET / (54.252.79.163) 0.45ms
+[I 20:00:16.512 NotebookApp] 302 GET / (54.232.40.67) 0.45ms
+[I 20:00:18.192 NotebookApp] 302 GET / (54.255.254.227) 0.45ms
+[I 20:00:24.054 NotebookApp] 302 GET / (177.71.207.163) 0.45ms
+[I 20:00:24.192 NotebookApp] 302 GET / (107.23.255.3) 0.46ms
+[I 20:00:24.293 NotebookApp] 302 GET / (54.250.253.227) 0.46ms
+[I 20:00:24.599 NotebookApp] 302 GET / (54.243.31.227) 0.45ms
+[I 20:00:24.714 NotebookApp] 302 GET / (54.251.31.131) 0.44ms
+[I 20:00:27.119 NotebookApp] 302 GET / (176.34.159.227) 0.45ms
+[I 20:00:29.882 NotebookApp] 302 GET / (54.183.255.131) 0.49ms
+[I 20:00:30.009 NotebookApp] 302 GET / (54.241.32.99) 0.45ms
+[I 20:00:32.271 NotebookApp] 302 GET / (54.248.220.35) 0.45ms
+[I 20:00:35.323 NotebookApp] 302 GET / (54.244.52.195) 0.45ms
+[I 20:00:37.321 NotebookApp] 302 GET / (54.245.168.35) 0.51ms
+[I 20:00:42.216 NotebookApp] 302 GET / (54.228.16.3) 0.46ms
+[I 20:00:44.288 NotebookApp] 302 GET / (54.252.254.195) 0.47ms
+[I 20:00:44.881 NotebookApp] 302 GET / (54.252.79.163) 0.45ms
+[I 20:00:46.946 NotebookApp] 302 GET / (54.232.40.67) 0.45ms
+[I 20:00:48.576 NotebookApp] 302 GET / (54.255.254.227) 0.47ms
+[I 20:00:54.363 NotebookApp] 302 GET / (107.23.255.3) 0.46ms
+[I 20:00:54.440 NotebookApp] 302 GET / (177.71.207.163) 0.46ms
+[I 20:00:54.539 NotebookApp] 302 GET / (54.250.253.227) 0.51ms
+[I 20:00:54.815 NotebookApp] 302 GET / (54.243.31.227) 0.50ms
+[I 20:00:55.067 NotebookApp] 302 GET / (54.251.31.131) 0.45ms
+[I 20:00:57.428 NotebookApp] 302 GET / (176.34.159.227) 0.48ms
+[I 20:00:59.939 NotebookApp] 302 GET / (54.183.255.131) 0.46ms
+[I 20:01:00.126 NotebookApp] 302 GET / (54.241.32.99) 0.45ms
+[I 20:01:02.510 NotebookApp] 302 GET / (54.248.220.35) 0.45ms
+[I 20:01:05.417 NotebookApp] 302 GET / (54.244.52.195) 0.45ms
+[I 20:01:07.410 NotebookApp] 302 GET / (54.245.168.35) 0.47ms
+[I 20:01:12.520 NotebookApp] 302 GET / (54.228.16.3) 0.44ms
+[I 20:01:14.624 NotebookApp] 302 GET / (54.252.254.195) 0.44ms
